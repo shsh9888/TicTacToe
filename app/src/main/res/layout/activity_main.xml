@@ -32,9 +32,7 @@
             android:layout_height="100dp"
             android:layout_marginLeft="10dp"
             android:onClick="onBoxClicked"
-            app:layout_column="0"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            android:tag="0" />
 
         <ImageView
             android:id="@+id/mark2"
@@ -42,9 +40,9 @@
             android:layout_height="100dp"
             android:layout_marginLeft="150dp"
             android:onClick="onBoxClicked"
+            android:tag="1"
             app:layout_column="0"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="0" />
 
         <ImageView
             android:id="@+id/mark3"
@@ -52,9 +50,9 @@
             android:layout_height="100dp"
             android:layout_marginLeft="280dp"
             android:onClick="onBoxClicked"
+            android:tag="2"
             app:layout_column="0"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="0" />
 
         <ImageView
             android:id="@+id/mark4"
@@ -63,9 +61,9 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="130dp"
             android:onClick="onBoxClicked"
+            android:tag="3"
             app:layout_column="0"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="0" />
 
         <ImageView
             android:id="@+id/mark5"
@@ -74,9 +72,9 @@
             android:layout_marginLeft="150dp"
             android:layout_marginTop="130dp"
             android:onClick="onBoxClicked"
+            android:tag="4"
             app:layout_column="0"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="0" />
 
         <ImageView
             android:id="@+id/mark6"
@@ -85,9 +83,9 @@
             android:layout_marginLeft="280dp"
             android:layout_marginTop="130dp"
             android:onClick="onBoxClicked"
+            android:tag="5"
             app:layout_column="0"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="0" />
 
         <ImageView
             android:id="@+id/mark7"
@@ -96,9 +94,9 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="250dp"
             android:onClick="onBoxClicked"
+            android:tag="6"
             app:layout_column="0"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="0" />
 
         <ImageView
             android:id="@+id/mark8"
@@ -107,9 +105,9 @@
             android:layout_marginLeft="150dp"
             android:layout_marginTop="250dp"
             android:onClick="onBoxClicked"
+            android:tag="7"
             app:layout_column="0"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="0" />
 
         <ImageView
             android:id="@+id/mark9"
@@ -118,9 +116,22 @@
             android:layout_marginLeft="280dp"
             android:layout_marginTop="250dp"
             android:onClick="onBoxClicked"
+            android:tag="8"
             app:layout_column="0"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="0" />
 
     </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/Game"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:background="#9C27B0"
+        android:gravity="center"
+        android:text="Tic Tac Toe"
+        android:textSize="24sp"
+        app:fontFamily="monospace" />
 </RelativeLayout>
