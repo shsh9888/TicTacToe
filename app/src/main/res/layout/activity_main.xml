@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <androidx.gridlayout.widget.GridLayout
-        android:id="@+id/myGrid"
+        android:id="@+id/love"
         android:layout_width="match_parent"
         android:layout_height="350dp"
         android:layout_alignParentStart="true"
@@ -134,4 +134,35 @@
         android:text="Tic Tac Toe"
         android:textSize="24sp"
         app:fontFamily="monospace" />
+
+    <LinearLayout
+        android:id="@+id/endGameLayout"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:background="#B94A4A"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/endGameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Play Again"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/playAgainButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="resetGame"
+            android:text="Play Again"
+            android:textSize="25sp" />
+    </LinearLayout>
+
 </RelativeLayout>
